@@ -1,4 +1,4 @@
-**ToDo list**
+### ToDo list
 
 Live Demo [**ToDo**](https://to-do-1ojus0cus-21alex.vercel.app/todo)
 
