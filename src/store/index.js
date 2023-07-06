@@ -4,7 +4,7 @@ const store = createStore({
     state() {
         return {
             list: JSON.parse(localStorage.getItem('list')) ?? [],
-            count: JSON.parse(localStorage.getItem('list')).length ?? 0,
+            count: JSON.parse(localStorage.getItem('list')) ? JSON.parse(localStorage.getItem('list')).length : 0,
         }
     },
     getters: {
@@ -18,6 +18,7 @@ const store = createStore({
             state.count += 1;
             state.list.push({ name: newTask, id });
             localStorage.setItem('list', JSON.stringify(state.list));
+            localStorage.removeItem('list');
         },
         deleted(state, { id }) {
             state.list = state.list.filter((item) => item.id !== id);
