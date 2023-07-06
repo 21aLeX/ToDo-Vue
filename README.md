@@ -1,24 +1,21 @@
-# hello-world
+**ToDo list**
 
-## Project setup
-```
-npm install
-```
+Live Demo [**ToDo**](https://to-do-1ojus0cus-21alex.vercel.app/todo)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Системные требования:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+OS: linux or wls
 
-### Lints and fixes files
-```
-npm run lint
-```
+node: v18.12.1
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Для установки всех необходимых проектов запустить:
+
+make install
+
+Для запуска локально:
+
+make start
+
+-Local: http://localhost:8080/
+
+![Alt text](image.png)
